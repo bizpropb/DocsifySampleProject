@@ -1,4 +1,4 @@
-# Welcome to Docsify Sample Project
+# Welcome to Docsify Showcase
 
 > A simple, beautiful documentation site built with Docsify
 

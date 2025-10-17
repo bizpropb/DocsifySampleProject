@@ -1,0 +1,18 @@
+
+.sidebar>h1 {
+  margin-left: -50px !important;
+}
+
+.sidebar {
+  padding-left: 50px !important;
+}
+.sidebar .search .input-wrap {
+  margin-left: -50px !important;
+}
+.content {
+  /*add a magin left of like 100px here*/
+}
+
+.markdown-section {
+ margin: 25px ;
+}

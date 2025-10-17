@@ -1,10 +1,10 @@
-# Docsify Sample Project
+# Docsify Showcase
 
 A complete, ready-to-deploy Docsify documentation site with all essential features pre-configured.
 
 ## What's This?
 
-This is a **fully functional Docsify sample project** that demonstrates:
+This is a **fully functional Docsify Showcase** that demonstrates:
 
 - ✅ Sidebar navigation
 - ✅ Full-text search

@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:jhildenbiddle.github.io)",
+      "WebFetch(domain:docsify.js.org)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)"
     ],
     "deny": [],
     "ask": []
