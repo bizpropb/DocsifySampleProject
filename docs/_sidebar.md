@@ -1,6 +1,6 @@
 <!-- _sidebar.md -->
 
-* [Home](/)
+* [Home](home.md)
 
 * Getting Started
   * [What is Docsify?](getting-started.md)

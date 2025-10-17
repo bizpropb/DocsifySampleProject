@@ -6,7 +6,9 @@ Docsify comes with several built-in themes, and you can easily customize or crea
 
 Change themes by modifying the CSS link in `index.html`:
 
-### Vue Theme (Default)
+### Official Docsify v4 Themes
+
+#### Vue Theme (Default)
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
@@ -14,7 +16,7 @@ Change themes by modifying the CSS link in `index.html`:
 
 Light, clean, Vue.js-inspired design.
 
-### Buble Theme
+#### Buble Theme
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css">
@@ -22,7 +24,7 @@ Light, clean, Vue.js-inspired design.
 
 Similar to Vue but with different colors.
 
-### Dark Theme
+#### Dark Theme
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
@@ -30,7 +32,7 @@ Similar to Vue but with different colors.
 
 Dark mode for your docs.
 
-### Pure Theme
+#### Pure Theme
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css">
@@ -38,14 +40,134 @@ Dark mode for your docs.
 
 Minimal, distraction-free design.
 
+#### Dolphin Theme
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dolphin.css">
+```
+
+Alternative light theme.
+
+### Docsify-Themeable (Advanced Theme System)
+
+Better themes with more customization options and improved mobile experience:
+
+#### Simple Theme
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+```
+
+Clean, modern light theme.
+
+#### Simple Dark Theme
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+```
+
+Clean, modern dark theme with better contrast than default dark.
+
+#### Defaults Theme
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
+```
+
+Comprehensive default styling.
+
+### Community Themes
+
+#### Darkly Theme
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darkly-theme@latest/dist/style.min.css">
+```
+
+High-contrast dark theme.
+
+#### DarkLight Theme (with toggle)
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
+<script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+```
+
+Automatic dark/light theme switcher.
+
+#### Darcula Theme
+
+```bash
+npm install docsify-theme-darcula
+```
+
+Then add to your `index.html`:
+```html
+<link rel="stylesheet" href="./node_modules/docsify-theme-darcula/dist/style.min.css">
+```
+
+JetBrains Darcula-inspired dark theme.
+
+#### GitHub Theme
+
+```bash
+npm install docsify-theme-github
+```
+
+Then add to your `index.html`:
+```html
+<link rel="stylesheet" href="./node_modules/docsify-theme-github/dist/style.min.css">
+```
+
+GitHub Markdown style.
+
+#### Retro Themes
+
+**Windows 98 Classic:**
+```bash
+npm install docsify-theme-98
+```
+
+Then add to your `index.html`:
+```html
+<link rel="stylesheet" href="./node_modules/docsify-theme-98/dist/style.min.css">
+```
+
+**Windows XP Luna:**
+```bash
+npm install docsify-theme-xp
+```
+
+Then add to your `index.html`:
+```html
+<link rel="stylesheet" href="./node_modules/docsify-theme-xp/dist/style.min.css">
+```
+
+**Windows Vista Aero:**
+```bash
+npm install docsify-theme-vista
+```
+
+Then add to your `index.html`:
+```html
+<link rel="stylesheet" href="./node_modules/docsify-theme-vista/dist/style.min.css">
+```
+
 ## Theme Comparison
 
-| Theme | Style | Best For |
-|-------|-------|----------|
-| Vue | Light, colorful | General documentation |
-| Buble | Light, professional | Business docs |
-| Dark | Dark background | Developer docs |
-| Pure | Minimal | Technical writing |
+| Theme | Style | CDN Available | Best For |
+|-------|-------|---------------|----------|
+| Vue | Light, colorful | Yes | General documentation |
+| Buble | Light, professional | Yes | Business docs |
+| Dark | Dark background | Yes | Developer docs |
+| Pure | Minimal | Yes | Technical writing |
+| Dolphin | Light alternative | Yes | Alternative light theme |
+| Themeable Simple | Modern light | Yes | Professional docs |
+| Themeable Dark | Modern dark | Yes | Better dark mode |
+| Darkly | High-contrast dark | Yes | Accessibility |
+| DarkLight | Auto-switching | Yes | User preference |
+| GitHub | GitHub-style | No (npm) | Familiar interface |
+| Retro | Nostalgic | No (npm) | Fun projects |
 
 ## Custom Styling
 
