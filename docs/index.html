@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docsify Sample Project</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A sample Docsify documentation site">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Theme: Simple (light theme) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <!-- Docsify will render content here -->
+  <div id="app">Loading...</div>
+
+  <script>
+    window.$docsify = {
+      // Site name (appears in the sidebar header)
+      name: 'Docsify Sample',
+
+      // Repository link (appears in the corner)
+      repo: '',
+
+      // Enable sidebar from _sidebar.md
+      loadSidebar: true,
+
+      // Sidebar levels to show (0 = show all)
+      subMaxLevel: 2,
+
+      // Enable search plugin
+      search: {
+        maxAge: 86400000, // Cache for 1 day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 4, // Search depth of headers
+      },
+
+      // Cover page (optional, disabled by default)
+      coverpage: false,
+
+      // Execute script on page (not recommended for user content)
+      executeScript: false,
+
+      // Auto scroll to top when route changes
+      auto2top: true,
+
+      // Homepage file (default is README.md)
+      homepage: 'README.md',
+    }
+  </script>
+
+  <!-- Docsify core library from CDN -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Search plugin from CDN -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Emoji plugin (optional) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+  <!-- Code highlighting - Prism (optional) -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+</body>
+</html>
